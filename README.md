@@ -18,4 +18,7 @@ php converter.php ts3db_maria.ini ts3server.sqlitedb
 
 3. The conversion process may take a while, so you need to wait to the end of data processing.
 
+### Usage warning!
+Running this program will truncate all your existing tables in given database. Make sure you are not working on production database and your important data won't become corrupted.
+
 [1]: http://php.net/manual/en/book.pdo.php
